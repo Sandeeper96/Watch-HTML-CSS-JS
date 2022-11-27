@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+#hour, #mintus, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+
+#hour{
+    width: 1.4%;
+    height: 23%;
+    top: 27%;
+    left: 49.2%;
+    background-color: aquamarine;
+     opacity: .8;
+}
+ #mintus{
+    width: 1%;
+    height: 25%;
+    top: 25%;
+    left: 49.4%;
+    background-color: blueviolet;
+    opacity: .6;
+
+}
+
+#second{
+    width: 1%;
+    height: 27%;
+    top: 23%;
+    left: 49.4%;
+    background-color: yellow;
+    /* opacity: .4; */
+
+} 
+.bottom{
+    padding: 50px;
+    margin: 104px 400px;
+    height: 30px;
+    width: 400px;
+    background-color: aqua;
+    color:mediumvioletred;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+.bottom:hover{
+    background-color: lightcoral;
+}
+#name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
